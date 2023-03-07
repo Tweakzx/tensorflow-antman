@@ -62,7 +62,7 @@ RUN npm install -g @bazel/bazelisk
 # Download and build TensorFlow.
 ENV TENSORFLOW_VERSION v1.15.4
 WORKDIR /
-RUN git clone --branch=${TENSORFLOW_VERSION} --recurse-submodules  http://github.com/tensorflow/tensorflow
+RUN git clone --branch=${TENSORFLOW_VERSION} --recurse-submodules  http://github.com/tensorflow/tensorflow.git
     
 RUN git clone https://github.com/alibaba/GPU-scheduler-for-deep-learning.git
 
