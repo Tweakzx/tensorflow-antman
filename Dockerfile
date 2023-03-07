@@ -70,7 +70,7 @@ RUN cd tensorflow \
     && echo "0.26.1" > .bazelversion \
     && cd ..
 
-RUN cd GPU-scheduler-for-deep-learning\TensorFlow-with-dynamic-scaling \
+RUN cd GPU-scheduler-for-deep-learning/TensorFlow-with-dynamic-scaling \
     && echo "0.26.1" > .bazelversion \
     && cd ..
 
