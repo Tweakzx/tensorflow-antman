@@ -36,7 +36,7 @@ python -c "import tensorflow as tf; print(tf.__version__)"
   - alldown： 编译需要下载的依赖全部下载完成， 鉴于国内的网速， 依赖不是很好下载
   - srccpmd： tensroflow源码可以顺利编译成功
   - ulti： 将antman部分的代码替换到了tensorflow源码内之后，顺利编译成功并安装。 
-  - github： 一个可能存在的版本，与github上的Dockerile保持一致 
+  - github： 一个可能存在的版本，与github上的Dockerfile保持一致 
 - alldown版本存在的numpy版本问题， 下降numpy版本到1.18.5之后， bazel clean， 重新./configure, bazel build
 - 编译whl包需要pip下载setuptools
 - 安装后要可以使用，需要保证protobuf版本为3.20.x, 建议在tensorflow安装前安装protobuf。
