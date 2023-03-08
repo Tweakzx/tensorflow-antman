@@ -28,4 +28,4 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 ## 注意事项
 - github访问可能很慢， 可以利用Github520项目中的方法修改hosts， 多试几次
 - 这只是一个提供编译环境的镜像， 如果需要编译tensorflow， 可以查看tensorflow的官方文档
-- 如果想直接用， 可以docker pull lzxcn/tf-antman:latest
+- 如果想直接用， 可以访问[dockerhub](https://hub.docker.com/r/lzxcn/tf-antman)
