@@ -34,7 +34,7 @@ python -c "import tensorflow as tf; print(tf.__version__)"
 - 如果想直接用， 可以访问[dockerhub](https://hub.docker.com/r/lzxcn/tf-antman), 几个tag的含义:
   - latest: 只有编译环境，tensorflow源码与antman版本源码， 没有编译过程中下载的依赖
   - alldown： 编译需要下载的依赖全部下载完成， 鉴于国内的网速， 依赖不是很好下载
-  - srccpmd： tensroflow源码可以顺利编译成功
+  - srccmpd： tensorflow源码可以顺利编译成功
   - ulti： 将antman部分的代码替换到了tensorflow源码内之后，顺利编译成功并安装。 
   - github： 一个可能存在的版本，与github上的Dockerfile保持一致 
 - alldown版本存在的numpy版本问题， 下降numpy版本到1.18.5之后， bazel clean， 重新./configure, bazel build
